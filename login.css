@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:none;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: space-around;
+    background-color: #fff;
+ 
+
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2px;
+}
+.navbar_brand {
+  width: 100px;
+  font-family: 'Kaushan Script', cursive;
+}
+.navbar_brand:hover{
+    width: 150px;
+    color: rgb(219, 149, 58);
+    text-transform: uppercase;
+    
+}
+a{
+    text-decoration: dotted;
+}
+.navbar_logo {
+  width: 100%;
+}
+
+.nav_item {
+    background-image: linear-gradient(
+        to right,
+        #3b719693 0%,
+        #55768b85 51%,
+        #4b757c9f 100%
+    );
+ 
+width: 150px;
+  color:black;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.nav_item:hover {
+  border: 2px solid rgba(185, 128, 62, 0.596);
+  width: 300px;
+}
+
+hr{
+color: brown;
+}
+.mainn{
+    height: 400px;
+    background-color: #fff;
+    font-family: fantasy;
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    border-radius: 20px;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(
+        to right,
+        #1a2e4b93 0%,
+        #50679985 51%,
+        #8dbdcf9f 100%
+    );
+    text-align: center;
+    color: black;
+}
+.box h1{
+    font-weight: 700;
+    font-family: fantasy;
+}
+.box input[type="text"],.box input[type="password"]{
+    margin: 20px auto;
+    display: block;
+    background: none;
+    border: 0;
+    border: 3px solid rgb(4, 36, 139);
+    padding: 14px,10px;
+    width: 210px;
+    outline: none;
+    border-radius: 24px;
+    transition: .25px;
+    cursor: pointer;
+    height: 30px;
+    color: black;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 300px;
+    border-color: rgb(30, 4, 90);
+}
+
+.box input[type="text"]:hover{
+    background: rgb(94, 158, 201);
+}
+.box input[type="password"]:hover{
+    background: rgb(94, 158, 201);
+}
+#submit{
+    border-radius: 24px;
+    width: 80px;
+    background-color: rgba(46, 27, 155, 0.212);
+}
+#submit:hover{
+    background-color: rgb(235, 182, 163);
+    width: 100px;
+}
+.foott{
+    background-color: black;
+    color: #fff;
+    
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 0px;
+}
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bold{
+    color: rgb(95, 93, 93);
+}
+
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon:hover{
+    cursor: pointer;
+}

@@ -7,13 +7,6 @@
   body {
     font-family: "Merriweather", serif;
     
-    background-image: linear-gradient(
-        to right,
-        #b96e5f93 0%,
-        #9e6b3185 51%,
-        #b8a75b9f 100%
-    );
-   margin-top: 20px;
     }
 
 
@@ -30,9 +23,11 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+        gap: 5px;
     }
     .navbar_brand {
       width: 100px;
+      font-family: 'Kaushan Script', cursive;
     }
     .navbar_brand:hover{
         width: 150px;
@@ -46,16 +41,15 @@
     }
     
     .nav_item {
-      
       background-image: linear-gradient(
-        to right,
-        #b96e5f93 0%,
-        #9e6b3185 51%,
-        #b8a75b9f 100%
-    );
-    
+            to right,
+            #3b719693 0%,
+            #55768b85 51%,
+            #4b757c9f 100%
+        );
+    gap: 10px;
     width: 150px;
-      color:#fff;
+      color:black;
       border: none;
       padding: 12px;
       border-radius: 6px;
@@ -67,17 +61,92 @@
       width: 300px;
     }
 
-
+hr{
+    color: brown;
+}
     .mainn{
-        height: 800px;
+        height: 1000px;
+        background-color: #fff;
     }
+    .loc{
+        background-color: rgba(37, 78, 126, 0.596);
+        padding: 30px;
+        font-family: 'Caveat', cursive;
+    }
+    .box{
+        height: 40px;
+        width: 400px;
+    }
+    .but{
+        height: 40px;
+        width: 80px;
+        background-color: rgba(68, 137, 194, 0.418);
+    }
+    .but:hover{
+        cursor: pointer;
+        height:50px ;
+        width:90px ;
+        background-color: rgb(75, 136, 136);
 
+    }
+    #nav-search-bar-form{
+        display: flex;
+        align-items: center;
+     
+    }
+    .full{
+        margin-top: 30px;
+        margin: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+        font-family: 'Patrick Hand', cursive;
+        padding: auto;
+    }
+    .hea{
+        margin: 30px;
+        color: rgb(2, 10, 20);
+        font-family: 'Estonia', cursive;
+        font-size: 30px;
+    }
+    .ima{
+        box-shadow: inset;
+        padding: 20px;
+        transform: skewY(-5deg);
+        margin-top: 40px;
+    }
+    .ima:hover{
+        height: 300px;
+        image-orientation: 30deg;
+    }
+    .para{
+        color: rgb(51, 79, 133);
+        font-size: 0.8in;
+        font-family: 'Estonia', cursive;
+    }
+    .boxx{
+        background-image: linear-gradient(
+            to right,
+            #6dace093 0%,
+            #47598a85 51%,
+            #231a759f 100%
+        );
+        border-radius: 30px;   
+        height: 300px;
+        width: 300px;
+        padding: 20px;
+    }
+    .boxx:hover{
+        height:350px ;
+        cursor: pointer;
+    }
     .foott{
         background-color: black;
         color: #fff;
         
         font-family: 'Courier New', Courier, monospace;
-        
+        border-radius: 0px;
     }
     .start{
         display: flex;
@@ -92,4 +161,11 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+    }
+    .icon:hover{
+        cursor: pointer;
+    }
+    a{
+        text-decoration: dotted;
+        color: black;
     }

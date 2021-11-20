@@ -6,21 +6,27 @@
   
   body {
       font-family: "Merriweather", serif;
-     
-      
-      
       
     }
+
+
+.imag{
+    margin-top: 50px;
+    margin-left: 450px;
+}
     .intro{
         text-align: center;
-        margin-top: 200px;
+        margin-top: 100px;
         text-shadow: #c0b73293;
         text-decoration: dotted;
+        font-family:monospace;
+        font-size: larger;
+        
     }
 
     .button_primary:hover{
         cursor: pointer;
-        background-color: rgba(161, 87, 87, 0.486);
+        background-color: rgba(6, 26, 82, 0.486);
     }
 
     .button_primary{
@@ -31,10 +37,14 @@
         padding: 12px;
         border-radius: 6px;
         cursor: pointer;
-        margin-left: 600px;
-        margin-top: 200px;
+        margin-left: 500px;
+        margin-top: 100px;
         text-shadow: #a54c3a93;
     
+    }
+    a{
+        color: black;
+        text-decoration: dotted;
     }
     .welcome{
         margin-bottom: 50px;
@@ -56,17 +66,17 @@
         height: 100%;
         background-image: linear-gradient(
             to right,
-            #a54c3a93 0%,
-            #b6670d85 51%,
-            #c9ad339f 100%
+            #18559b93 0%,
+            #3e67a585 51%,
+            #4996a39f 100%
         );
         transform: skewY(-5deg);
         z-index: -3;
 
     }
     .explore_menu_text{
-        font-size: 30px;
+        font-size: 50px;
         margin-top: 50px;
-        
+        font-family: 'Indie Flower', cursive;
         text-align: center;
     }
