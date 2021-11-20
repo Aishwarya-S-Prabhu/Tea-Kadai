@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*To box model */
+  }
+  
+  body {
+      font-family: "Merriweather", serif;
+     
+      
+      
+      
+    }
+    .intro{
+        text-align: center;
+        margin-top: 200px;
+        text-shadow: #c0b73293;
+        text-decoration: dotted;
+    }
+
+    .button_primary:hover{
+        cursor: pointer;
+        background-color: rgba(161, 87, 87, 0.486);
+    }
+
+    .button_primary{
+
+
+        color: rgb(34, 31, 31);
+        border: none;
+        padding: 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-left: 600px;
+        margin-top: 200px;
+        text-shadow: #a54c3a93;
+    
+    }
+    .welcome{
+        margin-bottom: 50px;
+       
+    }
+
+    .welcome{
+        margin-top: 30px;
+    }
+  
+    .welcome{
+        position: relative;   
+    }
+    .explore_menu_gradient_bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(
+            to right,
+            #a54c3a93 0%,
+            #b6670d85 51%,
+            #c9ad339f 100%
+        );
+        transform: skewY(-5deg);
+        z-index: -3;
+
+    }
+    .explore_menu_text{
+        font-size: 30px;
+        margin-top: 50px;
+        
+        text-align: center;
+    }
