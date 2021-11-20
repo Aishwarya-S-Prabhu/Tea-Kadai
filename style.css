@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*To box model */
+  }
+  
+  body {
+    font-family: "Merriweather", serif;
+    
+    background-image: linear-gradient(
+        to right,
+        #b96e5f93 0%,
+        #9e6b3185 51%,
+        #b8a75b9f 100%
+    );
+   margin-top: 20px;
+    }
+
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        color: black;
+        justify-content: space-around;
+        background-color: #fff;
+     
+    
+    }
+    .group{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .navbar_brand {
+      width: 100px;
+    }
+    .navbar_brand:hover{
+        width: 150px;
+        color: rgb(219, 149, 58);
+        text-transform: uppercase;
+        
+    }
+    
+    .navbar_logo {
+      width: 100%;
+    }
+    
+    .nav_item {
+      
+      background-image: linear-gradient(
+        to right,
+        #b96e5f93 0%,
+        #9e6b3185 51%,
+        #b8a75b9f 100%
+    );
+    
+    width: 150px;
+      color:#fff;
+      border: none;
+      padding: 12px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    
+    .nav_item:hover {
+      border: 2px solid rgba(185, 128, 62, 0.596);
+      width: 300px;
+    }
+
+
+    .mainn{
+        height: 800px;
+    }
+
+    .foott{
+        background-color: black;
+        color: #fff;
+        
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    .start{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .bold{
+        color: rgb(95, 93, 93);
+    }
+    
+    .end{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
